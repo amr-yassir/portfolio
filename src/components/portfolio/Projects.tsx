@@ -6,26 +6,34 @@ import { Github, ExternalLink, Code2 } from "lucide-react";
 export function Projects() {
   const projects = [
     {
-      title: "ThreeFold SDK Contributions",
-      description: "Contributed to the official ThreeFold SDK, enabling seamless interaction with decentralized infrastructure. Built comprehensive APIs and tools for developers to deploy and manage applications on the ThreeFold Grid.",
-      technologies: ["Go", "TypeScript", "REST APIs", "Docker"],
-      github: "https://github.com/threefoldtech",
+      title: "ThreeFold Spawner Tool",
+      description: "A command-line tool using Go for spawning and destroying benchmark VMs on the Threefold Grid, with results managed in InfluxDB, streamlining VM management and enhancing user experience.",
+      technologies: ["Go", "InfluxDB", "CLI", "ThreeFold Grid"],
+      github: "https://github.com/threefoldtech/guardians_healthchecker/tree/development/spawner",
       category: "Open Source",
       status: "Active"
     },
     {
       title: "Secret Note",
       description: "Secure note-sharing application with end-to-end encryption and time-based expiration. Features include password protection, automatic deletion, and secure sharing links.",
-      technologies: ["TypeScript", "Vue.js", "Encryption", "REST APIs"],
-      github: "https://github.com/amr-yassir/secret-note",
+      technologies: ["Go", "TypeScript", "Vue.js", "Encryption", "REST APIs"],
+      github: "https://github.com/codescalersinternships/secret-note-api-spa-amr",
       category: "Web Application",
+      status: "Completed"
+    },
+    {
+      title: "tfVPN",
+      description: "tfvpn is a tool that instantly connects you to a vpn server located on the threefold grid and tunnels all of your traffic through the server.",
+      technologies: ["Go", "Python", "Networking", "VPN"],
+      github: "https://github.com/codescalersinternships/tfvpn",
+      category: "Systems Programming",
       status: "Completed"
     },
     {
       title: "RESP Parser",
       description: "High-performance Redis Serialization Protocol (RESP) parser implementation in Go. Handles all RESP data types with optimized parsing algorithms and comprehensive error handling.",
       technologies: ["Go", "Protocol Parsing", "Performance Optimization"],
-      github: "https://github.com/amr-yassir/resp-parser",
+      github: "https://github.com/codescalersinternships/resp-parser-amr/tree/development",
       category: "Systems Programming",
       status: "Completed"
     },
@@ -33,7 +41,7 @@ export function Projects() {
       title: "INI Parser",
       description: "Robust INI file configuration parser with support for sections, comments, and data type conversion. Designed for high-performance applications requiring fast configuration loading.",
       technologies: ["Go", "File Processing", "Configuration Management"],
-      github: "https://github.com/amr-yassir/ini-parser",
+      github: "https://github.com/codescalersinternships/amryassir-inigo/tree/development",
       category: "Utility Library",
       status: "Completed"
     },
@@ -41,9 +49,9 @@ export function Projects() {
       title: "Coreutils Implementation",
       description: "Modern implementation of essential Unix command-line utilities in Go. Includes ls, cat, grep, and other fundamental tools with enhanced features and cross-platform compatibility.",
       technologies: ["Go", "CLI", "Unix Systems", "Cross-platform"],
-      github: "https://github.com/amr-yassir/coreutils",
+      github: "https://github.com/codescalersinternships/coreutils-amr/tree/development",
       category: "Systems Programming",
-      status: "In Progress"
+      status: "Completed"
     },
     {
       title: "Shell Interpreter",

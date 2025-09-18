@@ -12,14 +12,11 @@ export function Footer() {
                 <Code2 className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-bold text-lg">Amr Gazia</h3>
+                <h3 className="font-bold text-lg">Amr Yassir</h3>
                 <p className="text-sm text-muted-foreground">Software Engineer</p>
               </div>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Building scalable solutions and contributing to open source. 
-              Passionate about Go, systems programming, and continuous learning.
-            </p>
+
           </div>
 
           {/* Quick Links */}
@@ -95,31 +92,6 @@ export function Footer() {
 
         {/* Bottom section */}
         <div className="border-t border-border pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <span>Built with</span>
-              <Heart className="h-4 w-4 text-red-500" />
-              <span>using React, TypeScript & Tailwind CSS</span>
-            </div>
-            
-            <div className="text-sm text-muted-foreground">
-              <span>© {new Date().getFullYear()} Amr Gazia. All rights reserved.</span>
-            </div>
-          </div>
-          
-          <div className="text-center mt-4">
-            <p className="text-xs text-muted-foreground">
-              This portfolio is open source and available on{" "}
-              <a 
-                href="https://github.com/amr-yassir" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-primary hover:text-primary-glow transition-colors"
-              >
-                GitHub
-              </a>
-            </p>
-          </div>
         </div>
       </div>
     </footer>

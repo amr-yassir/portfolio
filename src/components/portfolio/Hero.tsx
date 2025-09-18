@@ -18,7 +18,7 @@ export function Hero() {
             </span>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
               Hi, I'm{" "}
-              <span className="text-gradient">Amr Gazia</span>
+              <span className="text-gradient">Amr Yassir</span>
             </h1>
           </div>
 
@@ -26,13 +26,13 @@ export function Hero() {
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
             Building scalable and impactful systems with{" "}
             <span className="text-primary font-semibold">Go</span>,{" "}
-            <span className="text-primary font-semibold">Python</span>,{" "}
-            <span className="text-primary font-semibold">TypeScript</span>, and modern DevOps practices.
+            <span className="text-primary font-semibold">Node.js</span>,
+            and <span className="text-primary font-semibold">Modern DevOps practices</span>.
           </p>
 
           {/* Tech stack highlights */}
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {["Go", "Python", "C", "TypeScript", "Docker", "GitHub Actions", "Vue.js"].map((tech) => (
+            {["Go", "JavaScript", "TypeScript", "Node.js", "Docker", "Kubernetes", "Git", "GitHub Actions", "Linux", "CCNA"].map((tech) => (
               <span
                 key={tech}
                 className="px-4 py-2 bg-card/80 backdrop-blur-sm border border-border/50 rounded-lg text-sm font-medium hover:border-primary/50 transition-all duration-300"
@@ -44,17 +44,17 @@ export function Hero() {
 
           {/* Call to action buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="btn-hero group"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work
               <Download className="ml-2 h-4 w-4 group-hover:translate-y-0.5 transition-transform" />
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
+            <Button
+              variant="outline"
+              size="lg"
               className="btn-secondary"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >

@@ -23,6 +23,7 @@ export function Skills() {
       skills: [
         { name: "Docker", level: 85, description: "Containerization and orchestration" },
         { name: "Docker Compose", level: 80, description: "Multi-container application deployment" },
+        { name: "Kubernetes", level: 75, description: "Container orchestration and management" },
         { name: "GitHub Actions", level: 85, description: "CI/CD pipeline automation" },
         { name: "Makefiles", level: 75, description: "Build automation and task management" },
         { name: "Linux", level: 80, description: "System administration and shell scripting" }
@@ -42,6 +43,7 @@ export function Skills() {
       title: "Web Technologies",
       icon: Globe,
       skills: [
+        { name: "Node.js", level: 80, description: "Modern frontend framework development" },
         { name: "Vue.js", level: 80, description: "Modern frontend framework development" },
         { name: "REST APIs", level: 85, description: "API design and implementation" },
         { name: "HTTP/HTTPS", level: 80, description: "Web protocols and security" },
@@ -52,7 +54,7 @@ export function Skills() {
       title: "Databases & Storage",
       icon: Database,
       skills: [
-        { name: "PostgreSQL", level: 75, description: "Relational database design and optimization" },
+        { name: "MongoDB", level: 75, description: "Relational database design and optimization" },
         { name: "Redis", level: 70, description: "Caching and session management" },
         { name: "SQLite", level: 80, description: "Embedded database applications" }
       ]

@@ -8,7 +8,7 @@ export function About() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Passionate about building scalable solutions and continuously learning new technologies
+            Software Engineer specializing in backend development and DevOps, with experience in Go, Node.js, TypeScript, Docker, and Kubernetes. I build scalable APIs, developer tools, and automation workflows with a strong focus on clean code, testing, and reliability.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export function About() {
               </div>
               <h3 className="text-xl font-semibold mb-4">Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To become a well-rounded engineer building scalable and impactful systems that solve real-world problems and make a positive difference.
+                To engineer innovative and reliable software solutions that empower developers and organizations to work more efficiently, scale seamlessly, and deliver value through technology.
               </p>
             </CardContent>
           </Card>
@@ -34,7 +34,7 @@ export function About() {
               </div>
               <h3 className="text-xl font-semibold mb-4">Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To continuously learn, share knowledge, and build practical, secure, and user-friendly solutions that drive innovation and growth.
+                To leverage my expertise in Go, Node.js, and modern DevOps practices to build secure, scalable, and maintainable systems while continuously learning and contributing to impactful projects and open-source communities.
               </p>
             </CardContent>
           </Card>
@@ -50,10 +50,7 @@ export function About() {
                 <p className="font-medium text-foreground mb-1">B.Sc. Communication & Computer Engineering</p>
                 <p className="text-sm mb-2">Mansoura University</p>
                 <p className="text-sm">
-                  <span className="font-medium">GPA:</span> 3.86/4.0
-                </p>
-                <p className="text-sm">
-                  <span className="font-medium">Years:</span> 2021 - 2026
+                  <span className="font-medium">GPA:</span> 3.9/4.0
                 </p>
               </div>
             </CardContent>
@@ -67,19 +64,19 @@ export function About() {
               <h3 className="text-2xl font-semibold mb-6 text-center">Who I Am</h3>
               <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed">
                 <p className="mb-4">
-                  I'm a dedicated Software Engineer with a passion for creating robust, scalable systems. 
-                  My journey in technology spans across multiple domains, from low-level systems programming 
-                  to modern web applications and DevOps practices.
+                  I a Software Engineer driven by curiosity and a love for solving problems with code. 
+                  My journey began with exploring low-level programming in C and Python, where I built everything from a UNIX shell to system utilities. 
+                  That foundation sparked my passion for creating tools that not only work but make developers’ lives easier.
                 </p>
                 <p className="mb-4">
-                  Currently pursuing my degree in Communication and Computer Engineering at Mansoura University, 
-                  I've gained hands-on experience through my work at CodeScalers Egypt and the ALX Scholarship Program, 
-                  where I've contributed to various open-source projects and built practical solutions.
+                  Over time, I found myself diving deep into Go and Node.js, where I discovered the joy of building APIs, automation workflows, and scalable systems. 
+                  During my experience at CodeScalers Egypt, I contributed to projects that ranged from secure note-sharing applications to VPN automation 
+                  on the ThreeFold Grid—each challenge shaping my skills and mindset as an engineer.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring new places, camping under the stars, 
-                  reading about Islamic history, horse riding, or staying active through fitness training. 
-                  I also enjoy unwinding with movies and series that inspire creativity and innovation.
+                  What excites me most is the craft of turning complex ideas into simple, reliable, and impactful solutions. 
+                  I believe in writing clean, tested, and maintainable code, and I’m always looking for opportunities to grow, learn, 
+                  and contribute to projects that push the boundaries of what technology can do.
                 </p>
               </div>
             </CardContent>

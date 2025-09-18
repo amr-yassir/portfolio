@@ -7,39 +7,39 @@ export function Experience() {
     {
       company: "CodeScalers Egypt",
       role: "Software Engineer",
-      period: "2023 - Present",
+      period: "Jul 2024 - Sep 2024",
       location: "Egypt",
-      type: "Full-time",
+      type: "Internship",
       projects: [
         {
           name: "Go SDK Development",
-          description: "Developed comprehensive SDK for ThreeFold Grid using Go, enabling developers to interact with decentralized infrastructure seamlessly."
+          description: "Added graphqlurl support to tfpluginclient and integrated WireGuard deployment into tfrobot, expanding network and configuration capabilities for developers on the ThreeFold Grid."
         },
         {
           name: "Spawner Tool",
-          description: "Built automated deployment tool for containerized applications with Docker integration and CI/CD pipeline management."
+          description: "Developed a command-line tool using Go for spawning and destroying benchmark VMs on the Threefold Grid, with results managed in InfluxDB, streamlining VM management and enhancing user experience."
         },
         {
           name: "TFVPN",
-          description: "Created secure VPN solution for ThreeFold network with advanced networking protocols and security implementations."
+          description: "Built a tool for instant VPN connection via the ThreeFold Grid, tunneling all traffic through the server."
         },
         {
           name: "TypeScript SDK",
-          description: "Developed TypeScript SDK for web applications, providing type-safe interactions with ThreeFold Grid services."
+          description: "Worked on the TypeScript SDK to facilitate the integration of Jenkins into applications. Created an FLIST using Docker and Zero-OS Hub to run Jenkins seamlessly, enabling efficient CI/CD workflows for developers."
         },
         {
           name: "Secret Note",
-          description: "Built secure note-sharing application with end-to-end encryption and time-based expiration features."
+          description: "Built secure, self-destructing note-sharing application using Go for backend and Vue.js for frontend."
         }
       ],
       technologies: ["Go", "TypeScript", "Docker", "GitHub Actions", "Vue.js", "REST APIs", "Microservices"]
     },
     {
       company: "ALX Scholarship Program",
-      role: "Software Engineering Student",
-      period: "2022 - 2023",
+      role: "Software Engineering Intern",
+      period: "Jun 2023 - Dec 2023",
       location: "Remote",
-      type: "Education",
+      type: "Internship",
       projects: [
         {
           name: "Shell Interpreter",
