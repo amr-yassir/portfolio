@@ -12,6 +12,7 @@ export function Hero() {
       <div className="container px-6 mx-auto relative z-10">
         <div className="text-center max-w-4xl mx-auto animate-fade-up">
           {/* Professional greeting */}
+            <img src="../../src/assets/pic.png" alt="Amr Yassir" className="shadow-lg w-[250px] h-[250px] rounded-full mx-auto mb-4" />
           <div className="mb-6">
             <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm mb-4">
               Software Engineer
